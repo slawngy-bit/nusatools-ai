@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090b16">
+  <meta name="description" content="NusaTools AI — tools online gratis untuk kreator, pelajar, dan produktivitas.">
+  <title>NusaTools AI — Tools Online & AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="NusaTools AI beranda"><span class="brand-mark">N</span><span>NusaTools<span class="brand-ai"> AI</span></span></a>
+    <nav><a href="#tools">Tools</a><a href="#ai">AI Studio</a><a href="#about">Tentang</a></nav>
+    <a class="top-cta" href="#tools">Mulai gratis <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="live-dot"></span> WORKSPACE DIGITAL BUAT SEMUA</div>
+      <h1>Kerjaan lebih cepat.<br><span class="gradient-text">Ide tanpa batas.</span></h1>
+      <p class="hero-copy">Tools online praktis dan AI assistant dalam satu tempat. Gratis untuk mulai, langsung dari HP kamu.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#tools">Jelajahi tools <span>→</span></a><a class="button button-ghost" href="#ai">Coba AI Studio</a></div>
+      <div class="hero-proof"><div class="avatar-stack"><span>✦</span><span>⚡</span><span>◈</span></div><span>Ringan, responsif, dan ramah mobile</span><span class="proof-separator">•</span><span>Tanpa instal aplikasi</span></div>
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+    </section>
+
+    <section class="quick-stats" aria-label="Keunggulan">
+      <div><strong>01</strong><span>Satu tempat</span></div><div><strong>∞</strong><span>Ide baru</span></div><div><strong>24/7</strong><span>Akses online</span></div><div><strong>0</strong><span>Instalasi</span></div>
+    </section>
+
+    <section id="tools" class="section">
+      <div class="section-heading"><div><div class="eyebrow">TOOLBOX</div><h2>Tools yang kamu butuhkan</h2><p>Pilih tools, isi kebutuhanmu, lalu langsung gunakan.</p></div><div class="search-wrap"><span>⌕</span><input id="toolSearch" type="search" placeholder="Cari tools..." aria-label="Cari tools"></div></div>
+      <div class="filter-row" role="group" aria-label="Filter tools"><button class="filter active" data-filter="all">Semua</button><button class="filter" data-filter="ai">AI & Konten</button><button class="filter" data-filter="utility">Utilitas</button></div>
+      <div class="tool-grid" id="toolGrid">
+        <button class="tool-card" data-tool="caption" data-category="ai"><span class="tool-icon icon-purple">✍</span><span class="tool-tag">AI & KONTEN</span><strong>Caption Generator</strong><span>Bikin caption sosial media sesuai gaya kamu.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="bio" data-category="ai"><span class="tool-icon icon-blue">✦</span><span class="tool-tag">AI & KONTEN</span><strong>Bio Generator</strong><span>Ide bio singkat untuk profil sosial media.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="username" data-category="ai"><span class="tool-icon icon-pink">@</span><span class="tool-tag">AI & KONTEN</span><strong>Username Generator</strong><span>Temukan ide nama akun yang unik.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="prompt" data-category="ai"><span class="tool-icon icon-orange">⌘</span><span class="tool-tag">AI & KONTEN</span><strong>Prompt Builder</strong><span>Susun prompt lebih jelas untuk AI.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="hashtags" data-category="ai"><span class="tool-icon icon-green">#</span><span class="tool-tag">AI & KONTEN</span><strong>Hashtag Ideas</strong><span>Ide hashtag berdasarkan topik konten.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="compress" data-category="utility"><span class="tool-icon icon-cyan">▧</span><span class="tool-tag">UTILITAS</span><strong>Kompres Gambar</strong><span>Kurangi ukuran gambar langsung di browser.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="pdf" data-category="utility"><span class="tool-icon icon-red">▤</span><span class="tool-tag">UTILITAS</span><strong>Gambar ke PDF</strong><span>Satukan gambar menjadi dokumen PDF.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+        <button class="tool-card" data-tool="rewrite" data-category="ai"><span class="tool-icon icon-yellow">↻</span><span class="tool-tag">AI & KONTEN</span><strong>Text Rewriter</strong><span>Rapikan teks dengan pilihan gaya penulisan.</span><span class="card-bottom">Buka tool <b>↗</b></span></button>
+      </div>
+    </section>
+
+    <section id="ai" class="section ai-section">
+      <div class="ai-intro"><div class="eyebrow">AI STUDIO</div><h2>Teman brainstorming<br><span class="gradient-text">di dalam browser.</span></h2><p>Tulis pertanyaan atau minta bantuan membuat ide, konsep konten, atau draft tulisan. Untuk jawaban AI sungguhan, hubungkan endpoint backend sesuai petunjuk README.</p><div class="privacy-note"><span>◇</span> Jangan masukkan kata sandi atau data sensitif.</div></div>
+      <div class="chat-panel"><div class="chat-head"><div class="ai-avatar">✦</div><div><strong>Nusa AI</strong><small><span class="live-dot"></span> Assistant workspace</small></div><span class="beta-pill">BETA</span></div><div class="chat-messages" id="chatMessages"><div class="message assistant">Hai! 👋 Aku bisa bantu menyusun ide. Tanyakan sesuatu atau pilih salah satu saran di bawah.</div><div class="suggestions"><button>Ide konten TikTok untuk pemula</button><button>Buat rencana belajar 7 hari</button><button>Brainstorm ide bisnis online</button></div></div><form id="chatForm" class="chat-form"><textarea id="chatInput" rows="1" placeholder="Tulis pertanyaanmu..." aria-label="Pesan untuk Nusa AI"></textarea><button aria-label="Kirim pesan" type="submit">↑</button></form><div class="chat-foot">Mode demo lokal sampai API AI dihubungkan.</div></div>
+    </section>
+
+    <section class="callout"><div><div class="eyebrow">BUAT LEBIH BANYAK</div><h2>Mulai dari satu ide.<br>Jadiin karya nyata.</h2><p>Tools sederhana, pengalaman yang nyaman, dan ruang untuk berkembang.</p></div><a href="#tools" class="button button-primary">Coba tools sekarang ↗</a></section>
+    <section id="about" class="about"><div class="brand"><span class="brand-mark">N</span><span>NusaTools<span class="brand-ai"> AI</span></span></div><p>Workspace online untuk membantu kreativitas dan produktivitas sehari-hari.</p><small>Versi awal • Dibuat untuk mobile-first</small></section>
+  </main>
+
+  <footer><span>© <span id="year"></span> NusaTools AI</span><span>Dibuat untuk ide yang terus bergerak ✦</span><button id="shareBtn" class="share-link">Bagikan website ↗</button></footer>
+
+  <div class="modal-backdrop" id="toolModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header"><div><div class="eyebrow" id="modalEyebrow">TOOL</div><h2 id="modalTitle">Tool</h2></div><button class="close-btn" id="closeModal" aria-label="Tutup">×</button></div>
+      <div id="modalBody"></div>
+      <div class="modal-output-wrap" id="outputWrap" hidden><label>Hasil</label><textarea id="toolOutput" rows="6" readonly></textarea><div class="output-actions"><button class="button button-primary" id="copyOutput">Salin hasil</button><button class="button button-ghost" id="downloadOutput">Unduh .txt</button></div></div>
+      <p class="modal-status" id="modalStatus" aria-live="polite"></p>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
